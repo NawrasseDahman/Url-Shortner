@@ -6,10 +6,10 @@ import clipboard
 window = Tk()
 
 #set deafault window size
-window.geometry("400x200") # width x height
+window.geometry("1080x720") # width x height
 
 # make window not resizable 
-window.resizable(False, False)  # not resizable in x and y 
+window.resizable(True, True)  # not resizable in x and y 
 
 # app title
 window.title("URL Shortener")
